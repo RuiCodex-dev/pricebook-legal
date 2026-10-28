@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="PriceBook legal pages: the privacy policy for the Android price-tracking app, in five languages">
+<title>PriceBook: legal pages</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121c33"/><stop offset=".5" stop-color="#1b2a4a"/><stop offset="1" stop-color="#14408a"/></linearGradient>
+<radialGradient id="g1" cx=".08" cy="0" r=".55"><stop offset="0" stop-color="#8ab4f8" stop-opacity=".40"/><stop offset="1" stop-color="#8ab4f8" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="1" cy="1" r=".65"><stop offset="0" stop-color="#1a73e8" stop-opacity=".65"/><stop offset="1" stop-color="#1a73e8" stop-opacity="0"/></radialGradient>
+<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#bcd3ff"/></linearGradient>
+<linearGradient id="area" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#8ab4f8" stop-opacity=".26"/><stop offset="1" stop-color="#8ab4f8" stop-opacity="0"/></linearGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="beam" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ff6b6b" stop-opacity="0"/><stop offset=".5" stop-color="#ff6b6b" stop-opacity=".9"/><stop offset="1" stop-color="#ff6b6b" stop-opacity="0"/></linearGradient>
+<linearGradient id="beamglow" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ff6b6b" stop-opacity="0"/><stop offset=".5" stop-color="#ff6b6b" stop-opacity=".22"/><stop offset="1" stop-color="#ff6b6b" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="card"><rect width="1280" height="360" rx="28"/></clipPath>
+<clipPath id="scanwin"><rect x="826" y="62" width="223" height="138" rx="16"/></clipPath>
+<mask id="tm"><text x="84" y="196" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="-2.5" fill="#fff">PriceBook</text></mask>
+</defs>
+<style>
+.scan{animation:scan 3.2s cubic-bezier(.45,0,.55,1) infinite alternate}
+@keyframes scan{from{transform:translateY(0)}to{transform:translateY(112px)}}
+.corner{animation:blink 3.2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:.55}50%{opacity:1}}
+.line{stroke-dasharray:360;stroke-dashoffset:360;animation:draw 1.6s .7s cubic-bezier(.3,.7,.2,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.drop{stroke-dasharray:60;stroke-dashoffset:60;animation:draw .6s 2.2s ease-out forwards}
+.avg{stroke-dasharray:5 6;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+.dt{opacity:0;animation:pop .4s ease-out forwards}
+@keyframes pop{from{opacity:0}to{opacity:1}}
+.deal{opacity:0;animation:pop .5s 2.6s ease-out forwards}
+.ring{animation:pulse 2.4s 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center;opacity:0}
+@keyframes pulse{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:.9;transform:scale(1.7)}}
+.rv{opacity:0;animation:rv .9s cubic-bezier(.2,.7,.2,1) forwards}.d1{animation-delay:.1s}.d2{animation-delay:.3s}.d3{animation-delay:.5s}.d4{animation-delay:.7s}
+@keyframes rv{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.shine{animation:sweep 7s ease-in-out infinite}
+@keyframes sweep{0%{transform:translateX(-300px)}50%,100%{transform:translateX(760px)}}
+.drift{animation:dr 10s ease-in-out infinite alternate}
+@keyframes dr{to{transform:translate(36px,12px)}}
+.tag{animation:sway 6s ease-in-out infinite alternate;transform-origin:1150px 92px}
+@keyframes sway{from{transform:rotate(-4deg)}to{transform:rotate(5deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}.line,.drop{stroke-dashoffset:0}}
+</style>
+<g clip-path="url(#card)">
+<rect width="1280" height="360" fill="url(#bg)"/>
+<rect width="1280" height="360" fill="url(#grid)"/>
+<rect class="drift" width="1280" height="360" fill="url(#g1)"/>
+<rect width="1280" height="360" fill="url(#g2)"/>
+
+<!-- scanner card with barcode -->
+<g class="rv d2">
+<rect x="826" y="62" width="223" height="138" rx="16" fill="rgba(8,14,28,.55)" stroke="rgba(255,255,255,.14)"/>
+<rect x="852.0" y="86" width="2.9" height="92" fill="#eaf1ff"/><rect x="857.8" y="86" width="5.8" height="92" fill="#eaf1ff"/><rect x="866.5" y="86" width="8.7" height="84" fill="#eaf1ff"/><rect x="878.1" y="86" width="5.8" height="84" fill="#eaf1ff"/><rect x="889.7" y="86" width="2.9" height="84" fill="#eaf1ff"/><rect x="895.5" y="86" width="8.7" height="84" fill="#eaf1ff"/><rect x="910.0" y="86" width="2.9" height="84" fill="#eaf1ff"/><rect x="918.7" y="86" width="2.9" height="84" fill="#eaf1ff"/><rect x="924.5" y="86" width="5.8" height="84" fill="#eaf1ff"/><rect x="939.0" y="86" width="2.9" height="84" fill="#eaf1ff"/><rect x="944.8" y="86" width="5.8" height="84" fill="#eaf1ff"/><rect x="953.5" y="86" width="2.9" height="84" fill="#eaf1ff"/><rect x="962.2" y="86" width="5.8" height="84" fill="#eaf1ff"/><rect x="970.9" y="86" width="8.7" height="84" fill="#eaf1ff"/><rect x="982.5" y="86" width="2.9" height="84" fill="#eaf1ff"/><rect x="991.2" y="86" width="2.9" height="84" fill="#eaf1ff"/><rect x="999.9" y="86" width="2.9" height="84" fill="#eaf1ff"/><rect x="1005.7" y="86" width="8.7" height="84" fill="#eaf1ff"/><rect x="1017.3" y="86" width="5.8" height="84" fill="#eaf1ff"/>
+<g class="corner" fill="none" stroke="#8ab4f8" stroke-width="3" stroke-linecap="round">
+<path d="M834 86V70h16"/><path d="M1041 86V70h-16"/>
+<path d="M834 176v16h16"/><path d="M1041 176v16h-16"/>
+</g>
+<g clip-path="url(#scanwin)"><g class="scan">
+<rect x="826" y="58" width="223" height="34" fill="url(#beamglow)"/>
+<rect x="830" y="73" width="215" height="4" rx="2" fill="url(#beam)" filter="url(#glow)"/>
+</g></g>
+</g>
+
+<!-- price tag -->
+<g class="rv d3"><g class="tag">
+<path d="M1096 104 L1120 80 H1228 a10 10 0 0 1 10 10 V150 a10 10 0 0 1 -10 10 H1120 Z" fill="#1a73e8" stroke="rgba(255,255,255,.35)"/>
+<circle cx="1118" cy="120" r="5" fill="#121c33" stroke="rgba(255,255,255,.4)"/>
+<text x="1180" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.8" fill="#cfe0ff">PRICE</text>
+<text x="1180" y="143" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,&quot;Cascadia Mono&quot;,Consolas,Menlo,monospace" font-size="27" font-weight="700" fill="#ffffff">2.49</text>
+</g></g>
+
+<!-- price history -->
+<g class="rv d3">
+<text x="846" y="222" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#8ab4f8">YOUR PRICE HISTORY</text>
+<path d="M846 262 L884 248 L922 254 L960 236 L998 240 L1036 226 L1074 232 L1112 222 L1150 228 L1150 306 L846 306Z" fill="url(#area)"/>
+<line x1="846" y1="306" x2="1212" y2="306" stroke="rgba(255,255,255,.16)"/>
+<line class="avg" x1="846" y1="238" x2="1212" y2="238" stroke="#a3abb5" stroke-opacity=".7" stroke-width="1.5"/>
+<text x="1212" y="231" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.6" fill="#a3abb5">USUAL</text>
+<polyline class="line" points="846,262 884,248 922,254 960,236 998,240 1036,226 1074,232 1112,222 1150,228" fill="none" stroke="#8ab4f8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+<polyline class="drop" points="1150,228 1196,270" fill="none" stroke="#5ee0a0" stroke-width="3" stroke-linecap="round"/>
+<circle class="dt" style="animation-delay:1.00s" cx="846" cy="262" r="3.5" fill="#8ab4f8"/><circle class="dt" style="animation-delay:1.10s" cx="884" cy="248" r="3.5" fill="#8ab4f8"/><circle class="dt" style="animation-delay:1.20s" cx="922" cy="254" r="3.5" fill="#8ab4f8"/><circle class="dt" style="animation-delay:1.30s" cx="960" cy="236" r="3.5" fill="#8ab4f8"/><circle class="dt" style="animation-delay:1.40s" cx="998" cy="240" r="3.5" fill="#8ab4f8"/><circle class="dt" style="animation-delay:1.50s" cx="1036" cy="226" r="3.5" fill="#8ab4f8"/><circle class="dt" style="animation-delay:1.60s" cx="1074" cy="232" r="3.5" fill="#8ab4f8"/><circle class="dt" style="animation-delay:1.70s" cx="1112" cy="222" r="3.5" fill="#8ab4f8"/><circle class="dt" style="animation-delay:1.80s" cx="1150" cy="228" r="3.5" fill="#8ab4f8"/>
+<circle class="ring" cx="1196" cy="270" r="9" fill="#2fbf71"/>
+<g class="deal"><circle cx="1196" cy="270" r="5" fill="#fff"/>
+<rect x="1104" y="282" rx="11" width="80" height="22" fill="rgba(47,191,113,.16)" stroke="rgba(94,224,160,.7)"/>
+<text x="1144" y="297" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4" fill="#bff3d6">REAL DEAL</text></g>
+</g>
+
+<g class="rv d1"><rect x="84" y="70" rx="14" width="168" height="28" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.18)"/>
+<text x="168" y="89" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.8" fill="#cfe0ff">LEGAL PAGES</text></g>
+<g class="rv d2"><text x="84" y="196" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="-2.5" fill="url(#tx)">PriceBook</text>
+<g mask="url(#tm)"><rect class="shine" x="84" y="100" width="150" height="110" fill="url(#sh)" transform="skewX(-20)"/></g></g>
+<text class="rv d3" x="86" y="242" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="25" font-weight="500" fill="#e8eaed">The privacy policy for the Android price-tracking app.</text>
+<g class="rv d4"><text x="86" y="292" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="500" fill="#a3abb5" letter-spacing=".3">English <tspan fill="#8ab4f8">·</tspan> Türkçe <tspan fill="#8ab4f8">·</tspan> Deutsch <tspan fill="#8ab4f8">·</tspan> Español <tspan fill="#8ab4f8">·</tspan> Français</text>
+<rect x="500" y="272" rx="13" width="112" height="27" fill="rgba(138,180,248,.12)" stroke="rgba(138,180,248,.5)"/><text x="556" y="291" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1" fill="#cfe0ff">GDPR · EU</text></g>
+<rect x="1" y="1" width="1278" height="358" rx="27" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="2"/>
+</g></svg>
